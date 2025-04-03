@@ -1,0 +1,60 @@
+
+/* Sustainability  */
+
+.sustain-container{
+    box-sizing: border-box;
+    margin-top: 80px;
+    border: solid var(--flame-logo) 5px;
+}
+
+.sustain-intro{
+    text-align: center;
+    padding: 2.5rem 3rem 2.5rem 3rem;
+
+    h1{
+        font-size: 2.5rem;
+        color: rgb(7, 7, 86);
+        text-shadow: 0 4px 6px rgba(68, 68, 79, 0.659);
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.2rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+}
+
+.sustain-content{
+    margin: 1.5rem 2rem 2.5rem 2rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    background: rgba(87, 87, 239, 0.186);
+    border-radius: 25px;
+    
+
+    h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .sustain-list{
+        padding: 2.5rem 2rem 2.5rem 2rem;
+        box-shadow: 0 4px 6px;
+        border-radius: 11px;
+        background: rgba(12, 104, 210, 0.158);
+
+        li{
+            font-family: sans-serif;
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+.sustain-tag{
+    margin: 2rem 3.5rem 2rem 3.5rem;
+    text-align: center;
+    font-family: "HanumanBold";
+    font-size: 1.5rem;
+    color: rgb(6, 6, 79);
+    text-shadow: 0 4px 6px rgba(78, 78, 86, 0.575);
+}

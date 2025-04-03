@@ -1,0 +1,162 @@
+
+/* Aashtha Fire Engineers  */
+
+.about-container{
+    box-sizing: border-box;
+    margin-top: 80px;
+    border: solid var(--flame-logo) 5px;
+}
+
+.about-container>h1{
+    text-align: center;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    font-size: 2.5rem;
+    color: rgb(5, 35, 59);
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.427);
+    background: rgba(112, 128, 144, 0.392);
+}
+
+.who-we-are{
+    margin: 2.5rem 3rem 2.5rem 3rem;
+    text-align: center;
+    background: rgba(2, 87, 156, 0.249);
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-radius: 25px;
+
+    h2{
+        font-size: 2rem;
+        font-family: "HanumanBold";
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        padding: 1rem 0;
+    }
+}
+
+
+.what-we-do{
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    background: rgba(0, 128, 128, 0.307);
+
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "HanumanBold";
+    }
+    ul{
+        margin: 1.5rem 1rem 1.5rem 1rem;
+        background: rgba(55, 57, 58, 0.203);
+        padding: 2rem 1.5rem 2rem 1.5rem;
+        border-radius: 11px;
+        box-shadow: 0 4px 6px;
+    }
+    ul li{
+        font-family: sans-serif;
+        padding-bottom: 1rem;
+        margin-left: 1.5rem;
+
+    }
+}
+
+.why-choose-us{
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    h2{
+        font-family: 'HanumanBold';
+        text-align: center;
+        font-size: 2rem;
+        text-shadow: 0 4px 6px rgba(0, 0, 0, 0.322);
+    }
+    .expertise{
+        border: solid rgba(0, 0, 255, 0.377) 2px;
+        box-shadow: 0 4px 6px;
+        padding: 2.5rem;
+        border-radius: 5px;
+        li{
+            padding-bottom: 1rem;
+        }
+        h3{
+            font-size: 1.5rem;
+            color: rgb(3, 3, 138);
+        }
+        p{
+            font-family: "Hanuman";
+            margin-left: 1rem;
+        }
+    }
+}
+
+.statement{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    text-align: center;
+    background-color: rgba(125, 125, 173, 0.34);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.359);
+    color: var(--new-blue);
+}
+
+/* CLIENTS SCETION  */
+.clients-section {
+    background: #a7c0d556;
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    border: dashed 2px rgba(247, 8, 8, 0.295);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(161, 148, 148);
+}
+
+.marquee-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.marquee-track {
+    display: flex;
+    animation: marquee 30s linear infinite;
+    padding: 1rem 0;
+}
+
+.client-logo {
+    height: 55px;
+    margin: 0 2rem;
+    filter: grayscale(50%);
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.client-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.marquee-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    background: linear-gradient(90deg, rgba(168, 106, 106, 0.249) 0%, rgba(26, 26, 26, 1) 100%);
+}
+.marquee-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    background: linear-gradient(270deg, rgba(151, 103, 103, 0.338) 0%, rgba(26, 26, 26, 1) 100%);
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

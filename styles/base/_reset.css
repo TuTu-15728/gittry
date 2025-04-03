@@ -1,0 +1,26 @@
+/* Mobile-first reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html{
+        font-size: 18px;
+    }
+}

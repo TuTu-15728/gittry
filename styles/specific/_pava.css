@@ -1,0 +1,223 @@
+
+/* PA/VA  */
+.pava-container {
+    box-sizing: border-box;
+    margin-top: 85px;
+    border: solid var(--flame-logo) 5px;
+}
+
+.pava-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.pava-heading{
+    font-size: 1.5rem;
+    color: rgb(6, 6, 106);
+    text-shadow: 0 4px 6px rgba(29, 26, 26, 0.74);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+
+}
+.pava-image{
+    width: 100%;
+    height: 300px;
+}
+
+.pava-image img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(93, 85, 85, 0.795);
+    border-radius: 25px;
+}
+
+.pava-intro{
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    h2{
+        font-size: 2rem;
+        color: var(--flame-logo);
+        font-family: serif;
+    }
+    p{
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+    }
+}
+
+.pava-info{
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.pava-components, .pava-installation{
+    width: 100%;
+}
+
+.pava-components{
+    background-color: #443f3f59;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.416);
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin: auto 0;
+}
+
+.pava-components h2{
+    font-size: 1.5rem;
+    color: #34495e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.pava-components ul{
+    list-style-type: none;
+    font-weight: bolder;
+    font-family: "HanumanBold";
+    margin: 0;
+    padding: 0;
+}
+
+.pava-components li{
+    color: #340303;
+    margin: 12px 0;
+}
+
+.pava-components li:before{
+    content: '✔';
+    color: #065a92;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.pava-installation{
+    border-radius: 10px;
+    background-color: #fff;
+    background: linear-gradient(135deg, #efe4d9, #a9aebd);
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.416);
+}
+
+.pava-installation h2{
+    color: rgb(16, 5, 64);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.pava-installation p{
+    font-family: "Hanuman";
+    font-weight: bold;
+    color: #690a0a;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+.pava-reasons{
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.pava-reasons h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #2C3E50;
+    margin-bottom: 40px;
+}
+
+.pava-reasons .reasons{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pava-reasons .reason-card{
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pava-reasons .reason-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.pava-reasons .reason-card h3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #020a30;
+}
+
+.pava-reasons .reason-card p{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "HanumanBold";
+}
+
+
+.pava-stat{
+    background-color: #ecf0f1;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.pava-stat h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.pava-stat .research-stats{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stat{
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.592);
+}
+
+.stat h3{
+    font-size: 2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f2e9e6;
+    text-shadow: 0 4px 6px rgba(26, 25, 25, 0.942);
+}
+
+.stat p{
+    margin-top: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #020a30;
+}
+
+@media (min-width:992px) {
+    .pava-info{
+        flex-direction: row;
+    }
+}
+
