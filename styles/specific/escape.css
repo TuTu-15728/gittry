@@ -124,7 +124,9 @@
         text-shadow: 0 6px 8px black;
     }
 }
-
+#escapeID{
+    scroll-margin-top: 85px;
+}
 
 @media (min-width:992px) {
     .escape-factors{
